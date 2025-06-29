@@ -5,35 +5,35 @@ export const Footer = () => {
         <div>
           <div className="text-3xl">#</div>
           <p className="mt-2">
-            FLOWCORE.
+            TrueCape
             <br />
-            Fornecendo tecnologia confiável desde 1992
+            Discover unforgettable adventures and scenic tours.
           </p>
         </div>
         <div>
-          <h3 className="text-sm font-bold uppercase mb-2">Serviços</h3>
+          <h3 className="text-sm font-bold uppercase mb-2">Services</h3>
           <ul className="space-y-1 text-sm">
-            <li>Consultoria Estratégica</li>
-            <li>Consultoria Fiscal</li>
-            <li>Consultoria em Gestão</li>
-            <li>Planejamento Financeiro</li>
+            <li>Airport Transfers</li>
+            <li>Full-Day Tours</li>
+            <li>Half-Day Tours</li>
+            <li>Dinner Transfers</li>
+            <li>Custom Services Available</li>
           </ul>
         </div>
         <div>
-          <h3 className="text-sm font-bold uppercase mb-2">Empresa</h3>
+          <h3 className="text-sm font-bold uppercase mb-2">Company</h3>
           <ul className="space-y-1 text-sm">
-            <li>Sobre nós</li>
-            <li>Contato</li>
-            <li>Trabalhe conosco</li>
-            <li>Kit de imprensa</li>
+            <li>About us</li>
+            <li>Contact</li>
+            <li>Make an Enquire</li>
           </ul>
         </div>
         <div>
           <h3 className="text-sm font-bold uppercase mb-2">Legal</h3>
           <ul className="space-y-1 text-sm">
-            <li>Termos de uso</li>
-            <li>Política de privacidade</li>
-            <li>Política de cookies</li>
+            <li>Terms of use</li>
+            <li>Privacy Policy</li>
+            <li>Cookies policy</li>
           </ul>
         </div>
       </div>

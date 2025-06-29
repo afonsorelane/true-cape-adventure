@@ -15,14 +15,14 @@ export const FeaturesSection = () => (
     whileInView={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.9, ease: "easeOut" }}
     viewport={{ once: true }}
-    className="w-full min-h-[60vh] flex items-center justify-center bg-gradient-to-br from-[#eaf1fa] to-[#f8fafc] py-20"
+    className="w-full min-h-[60vh] flex items-center justify-center py-20"
   >
     <div className="max-w-3xl w-full mx-auto text-center">
       <motion.h2
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1, duration: 0.7 }}
-        className="text-4xl font-extrabold text-[#09285c] mb-8"
+        className="text-4xl font-extrabold text-[#2d422b] mb-8"
       >
         Why Choose Us?
       </motion.h2>
@@ -35,7 +35,7 @@ export const FeaturesSection = () => (
             transition={{ delay: 0.2 + idx * 0.1, duration: 0.6 }}
             className="flex items-center gap-4 bg-white rounded-lg shadow-md px-6 py-5 text-lg font-medium text-[#09285c] hover:scale-105 hover:shadow-xl transition-all"
           >
-            <span className="inline-block w-3 h-3 bg-[#1e90ff] rounded-full shadow mr-2"></span>
+            <span className="inline-block w-3 h-3 bg-[#c66a26] rounded-full shadow mr-2"></span>
             {feature}
           </motion.li>
         ))}

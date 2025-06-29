@@ -11,7 +11,7 @@ export const AboutPage = () => {
 
       <section
         className="relative h-screen w-full bg-cover bg-center flex items-center justify-center"
-        style={{ backgroundImage: 'url("https://pgbr.net.br/wp-content/uploads/2023/04/PGBR-POSTAR-AGORA-1.jpeg")' }} 
+        style={{ backgroundImage: 'url("/2151747324.jpg")' }} 
       >
         <div className="absolute inset-0 bg-black/50 z-0" />
         <motion.div
@@ -38,7 +38,7 @@ export const AboutPage = () => {
       viewport={{ once: true }}
       className="flex-1"
     >
-      <h2 className="text-3xl font-bold text-[#09285c] mb-6">TrueCapeAdventure</h2>
+      <h2 className="text-3xl font-bold text-[#2d422b] mb-6">TrueCapeAdventure</h2>
       <p className="text-lg mb-4 leading-relaxed text-gray-700">
         At <span className="font-semibold">TrueCapeAdventure</span>, we believe that traveling is not just about visiting places — it's about
         living authentic experiences, creating unforgettable memories, and discovering the true spirit of
@@ -63,7 +63,7 @@ export const AboutPage = () => {
       className="flex-1"
     >
       <img
-        src="https://pgbr.net.br/wp-content/uploads/2023/04/PGBR-POSTAR-AGORA-1.jpeg"
+        src="/32511.jpg"
         alt="Cape Adventure"
         className="w-full h-auto rounded-2xl shadow-lg"
       />
@@ -75,4 +75,5 @@ export const AboutPage = () => {
       <Footer />
     </div>
   );
-};
+}
+

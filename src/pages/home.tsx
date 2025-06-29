@@ -42,7 +42,7 @@ export const HomePage = () => {
       viewport={{ once: true }}
       className="flex-1"
     >
-      <h2 className="text-3xl font-bold text-[#09285c] mb-6">Why Choose TrueCapeAdventure?</h2>
+      <h2 className="text-3xl font-bold text-[#2d422b] mb-6">Why Choose TrueCapeAdventure?</h2>
       <p className="text-lg mb-4 leading-relaxed text-gray-700">
         At <span className="font-semibold">TrueCapeAdventure</span>, we believe that traveling is not just about visiting places — it's about
         living authentic experiences, creating unforgettable memories, and discovering the true spirit of
@@ -67,7 +67,7 @@ export const HomePage = () => {
       className="flex-1"
     >
       <img
-        src="https://pgbr.net.br/wp-content/uploads/2023/04/PGBR-POSTAR-AGORA-1.jpeg"
+        src="/50500.jpg"
         alt="Cape Adventure"
         className="w-full h-auto rounded-2xl shadow-lg"
       />
@@ -75,7 +75,7 @@ export const HomePage = () => {
   </div>
 </section>
       <section className="py-16 px-4 max-w-7xl mx-auto bg-white">
-        <h2 className="text-3xl font-bold text-center mb-10 text-[#09285c]">Our Tours</h2>
+        <h2 className="text-3xl font-bold text-center mb-10 text-[#2d422b]">Our Tours</h2>
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -92,4 +92,4 @@ export const HomePage = () => {
       <Footer />
     </div>
   );
-};
+}

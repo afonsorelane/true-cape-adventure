@@ -7,7 +7,7 @@ export const tours: Tour[] = [
     description:
       "Discover the historic vineyards of the Cape region. Enjoy award-winning wines against stunning scenic backdrops.",
     image:
-      "https://pgbr.net.br/wp-content/uploads/2023/04/PGBR-POSTAR-AGORA-1.jpeg",
+      "/2151646534.jpg",
     link: "/tours/peninsula",
   },
   {
@@ -16,7 +16,7 @@ export const tours: Tour[] = [
     description:
       "Get up close with Africa’s untamed wilderness. Exciting safaris led by experienced local guides.",
     image:
-      "https://pgbr.net.br/wp-content/uploads/2023/04/PGBR-POSTAR-AGORA-1.jpeg",
+      "/2151822322.jpg",
     link: "/tours/winelands",
   },
   {
@@ -25,7 +25,7 @@ export const tours: Tour[] = [
     description:
       "Visit one of the world's greatest natural wonders. Complete packages to the majestic Victoria alls",
     image:
-      "https://pgbr.net.br/wp-content/uploads/2023/04/PGBR-POSTAR-AGORA-1.jpeg",
+      "/2315.jpg",
     link: "/tours/city",
   },
   {
@@ -34,7 +34,7 @@ export const tours: Tour[] = [
     description:
       "Explore the best of Cape Town — from Table Mountain to Camps Bay’s beaches and the city's vibrant urban life.",
     image:
-      "https://pgbr.net.br/wp-content/uploads/2023/04/PGBR-POSTAR-AGORA-1.jpeg",
+      "/daniel-radford-oTTnZcwQ2t4-unsplash.jpg",
     link: "/tours/best-of-the-cape",
   },
-];
+]

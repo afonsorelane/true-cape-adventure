@@ -2,45 +2,40 @@ import { TourSection } from "@/components/toursection";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 
+
 const tourData = [
   {
-    image: "https://pgbr.net.br/wp-content/uploads/2023/04/PGBR-POSTAR-AGORA-1.jpeg",
-    subtitle: "Southern Africa",
-    title: "UNMISSABLE EXPERIENCES",
-    description: "From scenic landscapes to cultural treasures — experiences that leave lasting impressions.",
-  },
-  {
-    image: "/images/wine.jpg",
+    image: "/2151646534.jpg",
     subtitle: "Cape Vineyards",
     title: "WINE TASTING TOURS",
     description: "Discover the historic vineyards of the Cape region. Enjoy award-winning wines against stunning scenic backdrops.",
   },
   {
-    image: "/images/safari.jpg",
+    image: "/2151822322.jpg",
     subtitle: "Wildlife Safari",
     title: "SAFARI ADVENTURES",
     description: "Get up close with Africa’s untamed wilderness. Exciting safaris led by experienced local guides.",
   },
   {
-    image: "https://pgbr.net.br/wp-content/uploads/2023/04/PGBR-POSTAR-AGORA-1.jpeg",
+    image: "/2315.jpg",
     subtitle: "Zambezi Region",
     title: "VICTORIA FALLS EXCURSIONS",
     description: "Visit one of the world's greatest natural wonders. Complete packages to the majestic Victoria Falls.",
   },
   {
-    image: "/images/capetown.jpg",
+    image: "/32511.jpg",
     subtitle: "Mother City",
     title: "CAPE TOWN CITY TOURS",
     description: "Explore the best of Cape Town — from Table Mountain to Camps Bay’s beaches and the city's vibrant urban life.",
   },
   {
-    image: "/images/cultural.jpg",
+    image: "/2149029481.jpg",
     subtitle: "Local Heritage",
     title: "CULTURAL & HERITAGE TOURS",
     description: "Immerse yourself in the rich local history and culture — including visits to museums, townships, and historical landmarks.",
   },
   {
-    image: "/images/custom.jpg",
+    image: "/9761.jpg",
     subtitle: "Tailor-made",
     title: "PERSONALIZED ITINERARIES",
     description: "Every traveler is unique. We create tailor-made itineraries to make your travel dreams come true.",
