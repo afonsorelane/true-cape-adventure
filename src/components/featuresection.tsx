@@ -33,7 +33,7 @@ export const FeaturesSection = () => (
             initial={{ opacity: 0, x: idx % 2 === 0 ? -40 : 40 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.2 + idx * 0.1, duration: 0.6 }}
-            className="flex items-center gap-4 bg-white rounded-lg shadow-md px-6 py-5 text-lg font-medium text-[#09285c] hover:scale-105 hover:shadow-xl transition-all"
+            className="flex items-center gap-4 bg-white rounded-lg shadow-md px-6 py-5 text-lg font-medium text-[#2d422b] hover:scale-105 hover:shadow-xl transition-all"
           >
             <span className="inline-block w-3 h-3 bg-[#c66a26] rounded-full shadow mr-2"></span>
             {feature}
