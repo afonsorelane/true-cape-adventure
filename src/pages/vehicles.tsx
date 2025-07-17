@@ -12,7 +12,7 @@ const vehicles = [
   },
   {
     name: "Toyota Quantum - 13 Seats",
-    images: ["/777.jpeg", "/888.jpeg"],
+    images: ["/p77.png", "/888.jpeg"],
     description: "Perfect for family or corporate tours. Air-conditioned with plenty of space."
   },
   {
@@ -22,12 +22,12 @@ const vehicles = [
   },
   {
     name: "V Class VIP - 6 Seats",
-    images: ["/222.jpg", "/333.jpg"],
+    images: ["/pngegg.png", "/333.jpg"],
     description: "Luxury and exclusivity for executives and special occasions."
   },
   {
     name: "C Class VIP - 4 Seats",
-    images: ["/111.jpg", "/31177.jpg"],
+    images: ["/png.png", "/31177.jpg"],
     description: "Style and elegance with premium finish. Perfect for those who demand more."
   },
 ];

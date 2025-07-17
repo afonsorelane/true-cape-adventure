@@ -8,7 +8,7 @@ export const tours: Tour[] = [
       "Discover the historic vineyards of the Cape region. Enjoy award-winning wines against stunning scenic backdrops.",
     image:
       "/2151646534.jpg",
-    link: "/tours/peninsula",
+    link: "/winetours",
   },
   {
     id: "safari-adventures",
@@ -17,16 +17,16 @@ export const tours: Tour[] = [
       "Get up close with Africa’s untamed wilderness. Exciting safaris led by experienced local guides.",
     image:
       "/2151822322.jpg",
-    link: "/tours/winelands",
+    link: "/safaritours",
   },
   {
     id: "vitoria-falls",
-    title: "Victoria Falls Excursions",
+    title: "Mineral Museum Excursions",
     description:
       "Visit one of the world's greatest natural wonders. Complete packages to the majestic Victoria alls",
     image:
       "/2315.jpg",
-    link: "/tours/city",
+    link: "/mineraltours",
   },
   {
     id: "cape",
@@ -35,6 +35,6 @@ export const tours: Tour[] = [
       "Explore the best of Cape Town — from Table Mountain to Camps Bay’s beaches and the city's vibrant urban life.",
     image:
       "/daniel-radford-oTTnZcwQ2t4-unsplash.jpg",
-    link: "/tours/best-of-the-cape",
+    link: "/capetowntours",
   },
 ]

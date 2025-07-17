@@ -21,10 +21,10 @@ export const CommentsPage = () => {
   }
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#f8fafc]">
+    <div className="min-h-screen pt-32 flex flex-col bg-[#f8fafc]">
       <Header />
       <main className="flex-1 max-w-xl mx-auto py-12 px-4">
-        <h1 className="text-3xl font-bold mb-6 text-[#09285c]">Comentários</h1>
+        <h1 className="text-3xl font-bold mb-6 text-[#2d422b]">Review</h1>
         <form onSubmit={handleSubmit} className="mb-8 bg-white p-6 rounded shadow">
           <input
             className="border p-2 rounded w-full mb-3"
