@@ -19,10 +19,17 @@ const tourData = [
     link: "/safaritours",
   },
   {
-    image: "/2315.jpg",
+    image: "/m3.jpg",
+    subtitle: "Victoria Falls",
+    title: "VICTORIA FALLS EXCURSIONS",
+    description: "Visit one of the world's greatest natural wonders. Complete packages to the majestic Mineral museum.",
+    link: "/victoriafalltours",
+  },
+    {
+    image: "/as.jpg",
     subtitle: "Mineral museum",
     title: "MINERAL MUSEUM EXCURSIONS",
-    description: "Visit one of the world's greatest natural wonders. Complete packages to the majestic Mineral museum.",
+    description: "Embark on a journey through time with our Mineral Museum Excursions — explore dazzling crystal formations, ancient fossils, and the rich mineral wealth that shaped South Africa’s natural and industrial history.",
     link: "/mineraltours",
   },
   {

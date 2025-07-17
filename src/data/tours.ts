@@ -21,12 +21,12 @@ export const tours: Tour[] = [
   },
   {
     id: "vitoria-falls",
-    title: "Mineral Museum Excursions",
+    title: "Victoria Falls Excursions",
     description:
       "Visit one of the world's greatest natural wonders. Complete packages to the majestic Victoria alls",
     image:
-      "/2315.jpg",
-    link: "/mineraltours",
+      "/m3.jpg",
+    link: "/victoriafalltours",
   },
   {
     id: "cape",

@@ -8,11 +8,12 @@ import {
   CommentsPage,
   EnquiryPage,
   WineTourPage,
-  MineralMuseumPage,
+  VictoriaFallPage,
   SafariAdventurePage,
   CapeTownCityTourPage,
   CulturalHeritageTourPage,
   PersonalizedItinerariesPage,
+  MineralMuseumPage
 } from "./pages";
 
 const router = createBrowserRouter([
@@ -49,12 +50,16 @@ const router = createBrowserRouter([
     element: <WineTourPage />,
   },
   {
-    path: "/mineraltours",
-    element: <MineralMuseumPage />,
+    path: "/victoriafalltours",
+    element: <VictoriaFallPage />,
   },
   {
     path: "/safaritours",
     element: <SafariAdventurePage />,
+  },
+    {
+    path: "/mineraltours",
+    element: <MineralMuseumPage />,
   },
   {
     path: "/capetowntours",

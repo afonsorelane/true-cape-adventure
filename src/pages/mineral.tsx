@@ -45,10 +45,6 @@ export const MineralMuseumPage = () => {
             <p>
               From sparkling diamonds to vibrant quartz crystals, each exhibit showcases the natural beauty and scientific wonder of the region.
             </p>
-            <p>
-              Make sure to visit top locations like <strong>Iziko Museum</strong> in Cape Town, the <strong>Kimberley Mine Museum</strong>,
-              and the <strong>Johannesburg Geology Museum</strong>, each offering unique displays and interactive experiences.
-            </p>
             <p className="font-semibold text-[#2d422b]">
               Book your visit with us and uncover the treasures that lie beneath — an unforgettable experience for curious minds and lovers of natural history alike.
             </p>
@@ -68,9 +64,9 @@ export const MineralMuseumPage = () => {
             className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
           >
             {[
-              { src: "/2315.jpg", alt: "Sparkling Gems" },
-              { src: "/m2.jpg", alt: "Kimberley Museum" },
-              { src: "/m3.jpg", alt: "Fossils and Crystals" },
+              { src: "/as.jpg", alt: "Sparkling Gems" },
+              { src: "/ad.jpg", alt: "Kimberley Museum" },
+              { src: "/af.jpg", alt: "Fossils and Crystals" },
             ].map((img, idx) => (
               <motion.img
                 key={img.src}

@@ -49,7 +49,7 @@ export const HomePage = () => {
         each destination.
       </p>
       <p className="text-lg mb-4 leading-relaxed text-gray-700">
-        We offer personalized tour guide services across Southern Africa, with a special focus on Cape
+        We offer personalized tour guide services across Southern Africa and Tanzania, with a special focus on Cape
         Town, Victoria Falls, and other breathtaking natural and cultural wonders of the region.
       </p>
       <p className="text-lg leading-relaxed text-gray-700">

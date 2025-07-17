@@ -6,11 +6,12 @@ import { VehiclePage } from "./vehicles";
 import { CommentsPage } from "./comments";
 import { EnquiryPage } from "./enquiry";
 import { WineTourPage } from "./winetour";
-import { MineralMuseumPage } from "./mineral";
+import { VictoriaFallPage } from "./vitoria";
 import { SafariAdventurePage } from "./safari";
 import { CapeTownCityTourPage } from "./city";
 import { CulturalHeritageTourPage } from "./cultural";
 import { PersonalizedItinerariesPage } from "./personal";
+import { MineralMuseumPage } from "./mineral";
 
 export {
   HomePage,
@@ -21,9 +22,10 @@ export {
   CommentsPage,
   EnquiryPage,
   WineTourPage,
-  MineralMuseumPage,
+  VictoriaFallPage,
   SafariAdventurePage,
   CapeTownCityTourPage,
   CulturalHeritageTourPage,
   PersonalizedItinerariesPage,
+  MineralMuseumPage,
 };

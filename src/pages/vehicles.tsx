@@ -26,7 +26,7 @@ const vehicles = [
     description: "Luxury and exclusivity for executives and special occasions."
   },
   {
-    name: "C Class VIP - 4 Seats",
+    name: "C Class VIP - 3 Seats",
     images: ["/png.png", "/31177.jpg"],
     description: "Style and elegance with premium finish. Perfect for those who demand more."
   },
