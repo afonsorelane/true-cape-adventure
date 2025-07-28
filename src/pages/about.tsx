@@ -52,7 +52,7 @@ export const AboutPage = () => {
               and other breathtaking natural and cultural wonders of the region.
             </p>
             <p className="text-lg mb-4 leading-relaxed text-gray-700">
-              Tanzania safaris — from the iconic plains of the Serengeti to the
+              Tanzania safaris — from the iconic plains of the Serengeti to thes
               Ngorongoro Crater, Tarangire’s ancient baobabs, and the white
               sands of Zanzibar. We specialize in private safaris, family
               adventures, luxury getaways, and cultural tours, all expertly

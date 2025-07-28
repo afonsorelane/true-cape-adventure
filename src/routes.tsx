@@ -13,7 +13,8 @@ import {
   CapeTownCityTourPage,
   CulturalHeritageTourPage,
   PersonalizedItinerariesPage,
-  MineralMuseumPage
+  MineralMuseumPage,
+  AdminCommentsPage
 } from "./pages";
 
 const router = createBrowserRouter([
@@ -72,6 +73,10 @@ const router = createBrowserRouter([
   {
     path: "/personaltours",
     element: <PersonalizedItinerariesPage />,
+  },
+    {
+    path: "/admin",
+    element: <AdminCommentsPage/>,
   },
 ]);
 

@@ -12,6 +12,7 @@ import { CapeTownCityTourPage } from "./city";
 import { CulturalHeritageTourPage } from "./cultural";
 import { PersonalizedItinerariesPage } from "./personal";
 import { MineralMuseumPage } from "./mineral";
+import { AdminCommentsPage } from "./adminPage"
 
 export {
   HomePage,
@@ -28,4 +29,5 @@ export {
   CulturalHeritageTourPage,
   PersonalizedItinerariesPage,
   MineralMuseumPage,
+  AdminCommentsPage,
 };
