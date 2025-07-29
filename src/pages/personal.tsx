@@ -2,8 +2,10 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Footer } from "../components/footer";
 import { Header } from "../components/header";
+import { useNavigate } from "react-router-dom";
 
 export const PersonalizedItinerariesPage = () => {
+    const navigate = useNavigate();
   return (
     <div>
       <Header />
@@ -89,7 +91,7 @@ export const PersonalizedItinerariesPage = () => {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="text-center mt-12"
           >
-            <Button variant="default" className="ml-4 bg-[#c66a26] hover:bg-[#a3561e]">
+            <Button variant="default" className="ml-4 bg-[#c66a26] hover:bg-[#a3561e]" onClick={() => navigate("/bookyourvisit")}>
               Start Your Journey
             </Button>
           </motion.div>

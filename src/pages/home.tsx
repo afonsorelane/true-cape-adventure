@@ -61,7 +61,16 @@ export const HomePage = () => {
               sands of Zanzibar. We specialize in private safaris, family
               adventures, luxury getaways, and cultural tours, all expertly
               designed by a passionate Arusha-based team that knows Tanzania
-              like home.
+              like home. Check out our trusted partner&nbsp;
+              <a
+                href="https://www.discoverwildexpeditions.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 underline font-semibold hover:text-blue-800"
+              >
+                Discover Wild Expeditions
+              </a>
+              , a key partner of TrueCape Adventure in Tanzania.
             </p>
             <p className="text-lg leading-relaxed text-gray-700">
               Whether its a thrilling safari adventure, a world-class wine

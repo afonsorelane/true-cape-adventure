@@ -32,7 +32,7 @@ export function Header() {
               {item.label}
             </a>
           ))}
-          <Button variant="default" className="ml-4 bg-[#c66a26] hover:bg-[#a3561e]" onClick={() => navigate("/enquiry")}>
+          <Button variant="default" className="ml-4 bg-[#c66a26] hover:bg-[#a3561e]" onClick={() => navigate("/bookyourvisit")}>
             Make an Enquiry
           </Button>
         </nav>

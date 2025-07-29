@@ -3,7 +3,7 @@ import { Header } from "../components/header";
 import { Footer } from "../components/footer";
 import { sendContactMessage } from "@/services/contact.service";
 
-export const EnquiryPage = () => {
+export const BookYourVisitPage = () => {
   const [sent, setSent] = useState(false);
   const [form, setForm] = useState({
     name: "",
@@ -18,12 +18,13 @@ export const EnquiryPage = () => {
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
+
     try {
       await sendContactMessage(form);
       setSent(true);
     } catch (err) {
-      console.error("Failed to send enquiry:", err);
-      alert("Failed to send enquiry. Please try again.");
+      console.error("Failed to send booking request:", err);
+      alert("Failed to send booking request. Please try again.");
     }
   }
 
@@ -31,10 +32,10 @@ export const EnquiryPage = () => {
     <div className="min-h-screen flex flex-col bg-[#f8fafc]">
       <Header />
       <main className="flex-1 max-w-lg mx-auto pt-32 py-12 px-4">
-        <h1 className="text-3xl font-bold mb-6 text-[#2d422b]">Make an Enquiry</h1>
+        <h1 className="text-3xl font-bold mb-6 text-[#2d422b]">Book Your Visit</h1>
         {sent ? (
           <div className="bg-green-100 text-green-800 p-6 rounded shadow text-center font-semibold">
-            Thank you for your enquiry! We will get back to you soon.
+            Thank you for booking your visit! We will contact you shortly.
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="bg-white p-6 rounded shadow space-y-4">
@@ -75,7 +76,7 @@ export const EnquiryPage = () => {
               type="submit"
               className="bg-[#c66a26] hover:bg-[#a3561e] text-white px-4 py-2 rounded font-semibold w-full"
             >
-              Send Enquiry
+              Book Now
             </button>
           </form>
         )}

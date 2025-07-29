@@ -14,7 +14,8 @@ import {
   CulturalHeritageTourPage,
   PersonalizedItinerariesPage,
   MineralMuseumPage,
-  AdminCommentsPage
+  AdminCommentsPage,
+  BookYourVisitPage,
 } from "./pages";
 
 const router = createBrowserRouter([
@@ -58,7 +59,7 @@ const router = createBrowserRouter([
     path: "/safaritours",
     element: <SafariAdventurePage />,
   },
-    {
+  {
     path: "/mineraltours",
     element: <MineralMuseumPage />,
   },
@@ -74,9 +75,13 @@ const router = createBrowserRouter([
     path: "/personaltours",
     element: <PersonalizedItinerariesPage />,
   },
-    {
+  {
     path: "/admin",
-    element: <AdminCommentsPage/>,
+    element: <AdminCommentsPage />,
+  },
+  {
+    path: "/bookyourvisit",
+    element: <BookYourVisitPage />,
   },
 ]);
 
