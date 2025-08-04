@@ -27,9 +27,8 @@ export const Footer = () => {
                 <div className="space-y-3">
                    <h3 className="text-sm font-bold uppercase mb-2">Company</h3>
           <ul className="space-y-1 text-sm">
-            <li>About us</li>
-            <li>Contact</li>
-            <li>Make an Enquire</li>
+         <li>truecapeadventure@gmail.com</li>
+            <li>+27 679881115</li>
           </ul>
                 </div>
 
